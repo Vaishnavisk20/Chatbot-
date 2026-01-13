@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eMudhra Chat Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+        }
+        header {
+            background: #ff6600;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            margin: 50px;
+            text-align: center;
+        }
+    </style>
+    <link rel="stylesheet" href="lia-chat.css?v=2.0">
+</head>
+<body>
+    <header>
+        <h1>eMudhra Digital Assistant Demo</h1>
+    </header>
+    <main>
+        <p>This is a test page for the chatbot.</p>
+        <p>The assistant will appear in the bottom-right corner 👇</p>
+        <br><br>
+        <p style="color: red; font-weight: bold;">IMPORTANT: Press Ctrl+Shift+R (or Cmd+Shift+R on Mac) to hard refresh and clear cache!</p>
+    </main>
+
+    <!-- WIDGET CONTAINER -->
+    <div id="lia-chat-widget">
+        <!-- FLOATING TOGGLE BUTTON WITH LOGO -->
+        <button id="lia-toggle-btn" onclick="toggleChat()">
+            <!-- eMudhra Logo Circle -->
+            <div id="lia-logo" class="lia-logo-circle">
+                <img src="channels4_profile.jpg" alt="eMudhra" onerror="this.style.display='none'; this.parentElement.innerHTML='<span class=&quot;lia-logo-text&quot;>e</span>';">
+            </div>
+            <!-- Close Icon -->
+            <svg id="lia-icon-close" style="display:none;" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+
+        <!-- CHAT WINDOW -->
+        <div id="lia-chat-window">
+            <!-- HEADER -->
+            <div class="lia-header">
+                <div class="lia-header-left">
+                    <div class="lia-avatar">
+                        <img src="channels4_profile.jpg" alt="eMudhra" onerror="this.style.display='none'; this.parentElement.innerHTML='<span class=&quot;lia-avatar-text&quot;>e</span>';">
+                    </div>
+                    <div class="lia-header-info">
+                        <h3>eMudhra Lia</h3>
+                        <p>Happy to Help!!!</p>
+                    </div>
+                </div>
+                <div class="lia-header-right">
+                    <!-- Refresh Button -->
+                    <button class="lia-refresh-btn" onclick="startNewChat()" title="Start New Chat">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M23 4v6h-6"></path><path d="M1 20v-6h6"></path>
+                            <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10"></path>
+                            <path d="M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+                        </svg>
+                    </button>
+                    <!-- Close Button -->
+                    <button class="lia-close-btn" onclick="toggleChat()" title="Close">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- MESSAGES -->
+            <div class="lia-messages" id="lia-messages">
+                <div class="lia-message bot">
+                    Hello! 👋 I'm Lia.<br>
+                    Please enter your <b>10-digit mobile number</b> registered with eMudhra to verify your identity and continue. ✨
+                </div>
+            </div>
+
+            <!-- TYPING INDICATOR -->
+            <div class="lia-typing" id="lia-typing">
+                <span></span><span></span><span></span>
+            </div>
+
+            <!-- INPUT AREA -->
+            <div class="lia-input-area">
+                <div class="lia-input-row">
+                    <input type="text" id="lia-input" placeholder="Need assistance? Just say hi 👋" autocomplete="off">
+                    <button id="lia-send-btn">➤</button>
+                </div>
+                <div class="lia-disclaimer">
+                    eMudhra Limited
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="config.js"></script>
+    <script src="lia-chat.js"></script>
+</body>
+</html>

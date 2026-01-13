@@ -1,0 +1,596 @@
+/* ===============================
+   ROOT WIDGET - RESPONSIVE
+   =============================== */
+#lia-chat-widget {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99999;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    #lia-chat-widget {
+        bottom: 10px;
+        right: 10px;
+        left: 10px;
+    }
+}
+
+/* ===============================
+   TOGGLE BUTTON - PURPLE THEME WITH LOGO
+   =============================== */
+#lia-toggle-btn {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 4px solid #a890ff;
+    cursor: pointer;
+    box-shadow: 0 4px 20px rgba(168, 144, 255, 0.5), 0 2px 8px rgba(0,0,0,0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    padding: 8px;
+}
+
+#lia-toggle-btn:hover { 
+    transform: scale(1.08);
+    box-shadow: 0 6px 24px rgba(168, 144, 255, 0.6), 0 3px 12px rgba(0,0,0,0.2);
+}
+
+#lia-toggle-btn:active {
+    transform: scale(0.95);
+}
+
+/* Logo Circle */
+.lia-logo-circle {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border-radius: 0;
+    position: relative;
+}
+
+.lia-logo-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 0;
+}
+
+.lia-logo-text {
+    font-size: 32px;
+    font-weight: 600;
+    color: #6a5acd;
+    font-family: Arial, sans-serif;
+}
+
+#lia-icon-close {
+    color: #ffffff;
+}
+
+/* Mobile Responsive Button */
+@media (max-width: 768px) {
+    #lia-toggle-btn {
+        width: 56px;
+        height: 56px;
+    }
+}
+
+/* ===============================
+   CHAT WINDOW - RESPONSIVE
+   =============================== */
+#lia-chat-window {
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    width: 400px;
+    max-width: calc(100vw - 40px);
+    height: 600px;
+    max-height: calc(100vh - 120px);
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.15), 0 4px 12px rgba(0,0,0,0.1);
+    flex-direction: column;
+    overflow: hidden;
+    animation: liaSlideUp 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes liaSlideUp {
+    from { 
+        opacity: 0; 
+        transform: translateY(30px) scale(0.95);
+    }
+    to { 
+        opacity: 1; 
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* Mobile Full Screen */
+@media (max-width: 768px) {
+    #lia-chat-window {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 0;
+    }
+}
+
+/* ===============================
+   HEADER - PURPLE THEME
+   =============================== */
+.lia-header {
+    background: linear-gradient(135deg, #a890ff 0%, #9b7ef5 100%);
+    color: #ffffff;
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.lia-header-left { 
+    display: flex; 
+    align-items: center; 
+    gap: 12px; 
+    flex: 1;
+}
+
+.lia-header-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.lia-avatar {
+    width: 44px; 
+    height: 44px;
+    background: #ffffff;
+    border-radius: 50%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    overflow: hidden;
+    flex-shrink: 0;
+    padding: 8px;
+}
+
+.lia-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 0;
+}
+
+.lia-avatar-text {
+    font-size: 24px;
+    font-weight: 600;
+    color: #6a5acd;
+}
+
+.lia-header-info { 
+    flex: 1;
+    min-width: 0;
+}
+
+.lia-header-info h3 { 
+    margin: 0; 
+    font-size: 16px; 
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.lia-header-info p { 
+    margin: 2px 0 0 0; 
+    font-size: 12px; 
+    opacity: 0.9;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.lia-refresh-btn,
+.lia-close-btn {
+    background: rgba(255,255,255,0.15);
+    border: none; 
+    border-radius: 50%;
+    width: 32px; 
+    height: 32px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    color: white; 
+    cursor: pointer; 
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+}
+
+.lia-refresh-btn:hover,
+.lia-close-btn:hover { 
+    background: rgba(255,255,255,0.25);
+}
+
+.lia-refresh-btn:active,
+.lia-close-btn:active {
+    transform: scale(0.9);
+}
+
+.lia-refresh-btn svg,
+.lia-close-btn svg { 
+    width: 16px; 
+    height: 16px; 
+    stroke-width: 2.5;
+}
+
+/* ===============================
+   MESSAGES AREA - SMOOTH SCROLL
+   =============================== */
+.lia-messages {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background: #f7f8fa;
+    scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+.lia-messages::-webkit-scrollbar {
+    width: 6px;
+}
+
+.lia-messages::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.lia-messages::-webkit-scrollbar-thumb {
+    background: rgba(123, 104, 238, 0.3);
+    border-radius: 10px;
+}
+
+.lia-messages::-webkit-scrollbar-thumb:hover {
+    background: rgba(123, 104, 238, 0.5);
+}
+
+.lia-message {
+    max-width: 75%;
+    padding: 12px 16px;
+    font-size: 14px;
+    line-height: 1.5;
+    border-radius: 16px;
+    word-wrap: break-word;
+    animation: liaMessageFadeIn 0.3s ease;
+}
+
+@keyframes liaMessageFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.lia-message.bot {
+    background: #ffffff;
+    color: #2d3748;
+    align-self: flex-start;
+    border-bottom-left-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.lia-message.user {
+    background: linear-gradient(135deg, #a890ff 0%, #9b7ef5 100%);
+    color: #ffffff;
+    align-self: flex-end;
+    border-bottom-right-radius: 4px;
+    box-shadow: 0 1px 3px rgba(168, 144, 255, 0.3);
+}
+
+.lia-message a { 
+    color: #9b7ef5;
+    text-decoration: underline; 
+    font-weight: 600;
+    transition: opacity 0.2s;
+}
+
+.lia-message a:hover {
+    opacity: 0.8;
+}
+
+.lia-message.user a { 
+    color: #fff;
+}
+
+/* Like/Dislike Buttons */
+.lia-message-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+.lia-message:hover .lia-message-actions {
+    opacity: 1;
+}
+
+.lia-action-btn {
+    background: transparent;
+    border: 1px solid #d0d0d0;
+    border-radius: 4px;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    padding: 0;
+}
+
+.lia-action-btn:hover {
+    background: #f0f0f0;
+    border-color: #8b7dd8;
+}
+
+.lia-action-btn svg {
+    width: 16px;
+    height: 16px;
+    stroke: #666;
+    stroke-width: 2;
+}
+
+/* ===============================
+   TYPING ANIMATION - SMOOTH
+   =============================== */
+.lia-typing {
+    display: none;
+    margin: 0 20px 10px;
+    background: #ffffff;
+    width: fit-content;
+    padding: 12px 16px;
+    border-radius: 16px;
+    border-bottom-left-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.lia-typing span {
+    display: inline-block;
+    width: 8px; 
+    height: 8px;
+    background: #a890ff;
+    border-radius: 50%;
+    margin: 0 2px;
+    animation: liaTypingBounce 1.4s infinite ease-in-out;
+}
+
+.lia-typing span:nth-child(1) { animation-delay: 0s; }
+.lia-typing span:nth-child(2) { animation-delay: 0.2s; }
+.lia-typing span:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes liaTypingBounce {
+    0%, 60%, 100% { 
+        transform: translateY(0);
+        opacity: 0.5;
+    }
+    30% { 
+        transform: translateY(-8px);
+        opacity: 1;
+    }
+}
+
+/* ===============================
+   INPUT AREA - MODERN DESIGN
+   =============================== */
+.lia-input-area {
+    padding: 16px;
+    border-top: 1px solid #e2e8f0;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.lia-input-row { 
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+}
+
+#lia-input {
+    flex: 1; 
+    padding: 12px 16px;
+    border-radius: 24px;
+    border: 2px solid #e2e8f0;
+    font-size: 14px;
+    outline: none;
+    transition: all 0.2s ease;
+    font-family: inherit;
+}
+
+#lia-input:focus { 
+    border-color: #a890ff;
+    box-shadow: 0 0 0 3px rgba(168, 144, 255, 0.1);
+}
+
+#lia-send-btn {
+    width: 44px; 
+    height: 44px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #a890ff 0%, #9b7ef5 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+    box-shadow: 0 2px 8px rgba(168, 144, 255, 0.3);
+}
+
+#lia-send-btn:hover { 
+    transform: scale(1.05);
+    box-shadow: 0 3px 12px rgba(168, 144, 255, 0.5);
+}
+
+#lia-send-btn:active {
+    transform: scale(0.95);
+}
+
+.lia-disclaimer { 
+    font-size: 11px;
+    color: #718096;
+    text-align: center;
+    opacity: 0.8;
+}
+
+/* ===============================
+   NEW CONVERSATION MODAL
+   =============================== */
+.lia-modal-overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.lia-modal-content {
+    background: #f0f0f0;
+    border-radius: 16px;
+    padding: 0;
+    width: 90%;
+    max-width: 350px;
+    text-align: center;
+    animation: liaModalFadeIn 0.3s ease;
+    overflow: hidden;
+}
+
+@keyframes liaModalFadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.lia-modal-header {
+    background: #f0f0f0;
+    padding: 30px 20px 20px;
+}
+
+.lia-modal-avatar {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #9b8cee 0%, #8b7dd8 100%);
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 42px;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(155, 140, 238, 0.4);
+}
+
+.lia-modal-avatar img {
+    width: 72px;
+    height: 72px;
+    object-fit: contain;
+    border-radius: 0;
+}
+
+.lia-modal-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2d3748;
+    margin: 0 0 8px 0;
+}
+
+.lia-modal-subtitle {
+    font-size: 14px;
+    color: #718096;
+    margin: 0;
+}
+
+.lia-modal-body {
+    background: #ffffff;
+    padding: 24px;
+    border-radius: 16px 16px 0 0;
+}
+
+.lia-modal-text {
+    font-size: 15px;
+    color: #2d3748;
+    margin: 0 0 20px 0;
+    font-weight: 500;
+}
+
+.lia-modal-btn {
+    width: 100%;
+    padding: 14px;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-bottom: 12px;
+}
+
+.lia-modal-btn-primary {
+    background: linear-gradient(135deg, #9b8cee 0%, #8b7dd8 100%);
+    color: white;
+    box-shadow: 0 2px 8px rgba(155, 140, 238, 0.3);
+}
+
+.lia-modal-btn-primary:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(155, 140, 238, 0.4);
+}
+
+.lia-modal-btn-secondary {
+    background: transparent;
+    color: #8b7dd8;
+    border: none;
+}
+
+.lia-modal-btn-secondary:hover {
+    opacity: 0.7;
+}

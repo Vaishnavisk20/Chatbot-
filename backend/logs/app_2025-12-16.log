@@ -1,0 +1,118 @@
+2025-12-16 15:39:49 - knowledge_base - INFO - 📚 Loading Knowledge Base (FAQs & Error Docs)...
+2025-12-16 15:39:51 - knowledge_base - INFO -    - FAQ Doc loaded: 95403 characters
+2025-12-16 15:39:57 - knowledge_base - INFO -    - Error Doc loaded: 42132 characters
+2025-12-16 15:39:57 - knowledge_base - INFO - ✅ Knowledge Base Loaded!
+2025-12-16 15:40:11 - auth - INFO - 🚀 Sending OTP to 9626484788...
+2025-12-16 15:40:13 - auth - INFO - 📩 API Response: {'session_info': {'valid_to': '2025-12-16 15:50:14', 'session_id': 'F1A278BB9C66AE74D9863C5A19CC28DB', 'valid_from': '16-Dec-2025 15:40'}, 'response': {'ver': '1.0', 'txn': 'TXN1765879811588', 'ts': '2025-12-16T15:40:11', 'status': '1'}}
+2025-12-16 15:40:47 - main - INFO - 🤖 User Verified. Fetching details for 9626484788...
+2025-12-16 15:41:01 - tools - INFO - 🔍 FAQ SEARCH for 'DSC':
+2025-12-16 15:41:01 - tools - INFO -    [Chunk 1]: DSC is a legally valid electronic certificate used to authenticate your identity digitally.
+You can buy a Class 3 Paperless DSC online from eMudhra fo...
+2025-12-16 15:41:01 - tools - INFO -    [Chunk 2]: Suggestions
+
+◽ Check status of my DSC application
+◽ Buy a Digital Signature Certificate (DSC)
+◽ Talk to support specialist
+	11
+	What is the time frame...
+2025-12-16 15:41:01 - tools - INFO -    [Chunk 3]: ◽ Buy a Digital Signature Certificate (DSC)
+◽ Know what documents are required
+◽ Talk to support specialist
+	5
+	Why video verification is required?
+	V...
+2025-12-16 15:41:01 - tools - INFO -    [Chunk 4]: Suggestions
+
+◽ Download my DSC
+◽ Talk to support specialist
+◽ Buy a Digital Signature Certificate (DSC)
+	14
+	How can I unlock my USB Token?
+	To unlock...
+2025-12-16 15:41:01 - tools - INFO -    [Chunk 5]: If you face any issues downloading your DSC, I can guide you through the steps or provide troubleshooting help.
+
+Suggestions
+
+◽ Download my DSC
+◽ Chec...
+2025-12-16 15:41:01 - tools - INFO - 🔍 ERROR SEARCH for 'DSC':
+2025-12-16 15:41:01 - tools - INFO -    [Chunk 1]: ﻿DSC usage in website and troubleshooting steps.
+
+
+
+
+
+Index:-
+
+Sl.no        Website                                                                   ...
+2025-12-16 15:41:01 - tools - INFO -    [Chunk 2]: 10.    You will be asked to enter your DSC password. Enter your DSC password and click on the "OK" button.
+11.    Your DSC will be registered on the T...
+2025-12-16 15:41:01 - tools - INFO -    [Chunk 3]: Error 4: DSC verification failed
+
+If the certificate verification fails, an error message ‘Error occurred while DSC registration. Please try after som...
+2025-12-16 15:41:01 - tools - INFO -    [Chunk 4]: To register your DSC on EPFO website:
+
+
+
+1.       Go to the EPFO website: https://unifiedportal-mem.epfindia.gov.in/
+2.       Click on the "Establishm...
+2025-12-16 15:41:01 - tools - INFO -    [Chunk 5]: 1. The user must run emBridge software of eMudhra and have encrypted device (Pen Drive) plugged in their systems while adding DSC
+on NSWS Portal. To d...
+2025-12-16 15:41:23 - tools - INFO - 🔍 FAQ SEARCH for 'S/MIME':
+2025-12-16 15:41:23 - tools - INFO -    [Chunk 1]: ______________________________________________________________________________________________________________________________
+SSL
+Short for Secure So...
+2025-12-16 15:41:23 - tools - INFO -    [Chunk 2]: * Q. What is a hash algorithm?
+      * Q. What is Cryptographic Service Provider?
+      * Q. What is SSL (secure socket layer)?
+      * Q. What is MIM...
+2025-12-16 15:41:23 - tools - INFO -    [Chunk 3]: ﻿FAQ’s 
+
+General
+1 What is a Digital Signature?
+A digital signature is an electronic form of a signature that can be used to authenticate the identity...
+2025-12-16 15:41:23 - tools - INFO -    [Chunk 4]: If you want, I can guide you through which template is best suited for your application type.
+
+Suggestions
+
+◽ Know what documents are required
+◽ Buy a...
+2025-12-16 15:41:23 - tools - INFO -    [Chunk 5]: (n)Code
+	4
+	eMail Verification
+	Subscriber
+	5
+	Tele Verification
+	Subscriber
+	6
+	Upload latest Video of the Subscriber
+	Subscriber
+	7
+	Issuance of Aut...
+2025-12-16 15:41:24 - tools - INFO - 🔍 ERROR SEARCH for 'S/MIME':
+2025-12-16 15:41:24 - tools - INFO -    [Chunk 1]: E-SACHIT (Ice gate)
+
+
+
+
+
+Resolution- Make sure digital signature is registered on new ice gate. Once the certificate is registered please sign PDF doc...
+2025-12-16 15:41:24 - tools - INFO -    [Chunk 2]: Enter the details requested in the next page. Details should be same as in DIN/PAN.
+
+
+
+
+In the next screen you will be asked to enter your e-mail id a...
+2025-12-16 15:41:24 - tools - INFO -    [Chunk 3]: 1. Error message- General exception
+
+
+
+Resolution- Download Java 8 32 bit update 191 or higher versions. Configure java setting to support Digital Sig...
+2025-12-16 15:41:24 - tools - INFO -    [Chunk 4]: Sl.
+No.         Token                                                          Path                                                     .dll file name...
+2025-12-16 15:41:24 - tools - INFO -    [Chunk 5]: Resolution-Issue occurs as either java is not installed or not running on system. Download Java 8 32 bit update 191 or higher versions.
+Configure java...
+2025-12-16 15:42:07 - knowledge_base - INFO - 📚 Loading Knowledge Base (FAQs & Error Docs)...
+2025-12-16 15:42:09 - knowledge_base - INFO -    - FAQ Doc loaded: 95403 characters
+2025-12-16 15:42:14 - knowledge_base - INFO -    - Error Doc loaded: 42132 characters
+2025-12-16 15:42:15 - knowledge_base - INFO - ✅ Knowledge Base Loaded!

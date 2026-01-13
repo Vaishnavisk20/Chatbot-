@@ -1,0 +1,533 @@
+2025-12-17 11:16:02 - knowledge_base - INFO - 📚 Loading Knowledge Base (FAQs & Error Docs)...
+2025-12-17 11:16:06 - knowledge_base - INFO -    - FAQ Doc loaded: 95403 characters
+2025-12-17 11:16:12 - knowledge_base - INFO -    - Error Doc loaded: 42132 characters
+2025-12-17 11:16:14 - knowledge_base - INFO - ✅ Knowledge Base Loaded!
+2025-12-17 11:16:26 - auth - INFO - 🚀 Sending OTP to 9626484788...
+2025-12-17 11:16:29 - auth - INFO - 📩 API Response: {'session_info': {'valid_to': '2025-12-17 11:26:40', 'session_id': 'E47CA1A84587FB88E1826EC880A5A66F', 'valid_from': '17-Dec-2025 11:16'}, 'response': {'ver': '1.0', 'txn': 'TXN1765950386809', 'ts': '2025-12-17T11:16:26', 'status': '1'}}
+2025-12-17 11:16:52 - main - INFO - 🤖 User Verified. Fetching details for 9626484788...
+2025-12-17 11:17:06 - main - INFO - ✅ Forwarded message to Ameyo for session sess_1765950374330_6etsz
+2025-12-17 11:17:23 - main - INFO - 👤 Routing to Live Agent: sess_1765950374330_6etsz
+2025-12-17 11:17:24 - main - INFO - ✅ Forwarded message to Ameyo for session sess_1765950374330_6etsz
+2025-12-17 11:19:08 - main - INFO - 👤 Routing to Live Agent: sess_1765950374330_6etsz
+2025-12-17 11:19:09 - main - INFO - ✅ Forwarded message to Ameyo for session sess_1765950374330_6etsz
+2025-12-17 11:20:04 - knowledge_base - INFO - 📚 Loading Knowledge Base (FAQs & Error Docs)...
+2025-12-17 11:20:06 - knowledge_base - INFO -    - FAQ Doc loaded: 95403 characters
+2025-12-17 11:20:11 - knowledge_base - INFO -    - Error Doc loaded: 42132 characters
+2025-12-17 11:20:13 - knowledge_base - INFO - ✅ Knowledge Base Loaded!
+2025-12-17 11:20:15 - main - INFO - 👤 Routing to Live Agent: sess_1765950374330_6etsz
+2025-12-17 11:20:17 - main - INFO - ✅ Forwarded message to Ameyo for session sess_1765950374330_6etsz
+2025-12-17 11:22:48 - knowledge_base - INFO - 📚 Loading Knowledge Base (FAQs & Error Docs)...
+2025-12-17 11:22:49 - knowledge_base - INFO -    - FAQ Doc loaded: 95403 characters
+2025-12-17 11:22:54 - knowledge_base - INFO -    - Error Doc loaded: 42132 characters
+2025-12-17 11:22:56 - knowledge_base - INFO - ✅ Knowledge Base Loaded!
+2025-12-17 11:23:09 - main - INFO - 👤 Routing to Live Agent: sess_1765950374330_6etsz
+2025-12-17 11:23:11 - main - INFO - ✅ Forwarded message to Ameyo for session sess_1765950374330_6etsz
+2025-12-17 11:25:39 - knowledge_base - INFO - 📚 Loading Knowledge Base (FAQs & Error Docs)...
+2025-12-17 11:25:40 - knowledge_base - INFO -    - FAQ Doc loaded: 95403 characters
+2025-12-17 11:25:45 - knowledge_base - INFO -    - Error Doc loaded: 42132 characters
+2025-12-17 11:25:47 - knowledge_base - INFO - ✅ Knowledge Base Loaded!
+2025-12-17 11:25:49 - main - INFO - 👤 Routing to Live Agent: sess_1765950374330_6etsz
+2025-12-17 11:25:50 - main - INFO - ✅ Forwarded message to Ameyo for session sess_1765950374330_6etsz
+2025-12-17 11:25:54 - main - INFO - 📩 Received from Ameyo for sess_1765950374330_6etsz: {'role': 'appMaker', 'type': 'text', 'name': 'rchat', 'metadata': {'sourceType': 'web', 'appId': '5cac75981134520011f881ab', 'IDENTIFIER': 'AGENT_MESSAGE', 'userName': 'rchat', 'userId': 'rchat'}, 'text': 'Hello! This is an automated reply from the Mock Ameyo Agent. How can I help?'}
+2025-12-17 11:25:56 - state_manager - INFO - 📥 Queueing for sess_1765950374330_6etsz -> Hello! This is an automated reply from the Mock Ameyo Agent. How can I help?
+2025-12-17 11:26:28 - main - INFO - 👤 Routing to Live Agent: sess_1765950374330_6etsz
+2025-12-17 11:26:29 - main - INFO - ✅ Forwarded message to Ameyo for session sess_1765950374330_6etsz
+2025-12-17 11:26:33 - main - INFO - 📩 Received from Ameyo for sess_1765950374330_6etsz: {'role': 'appMaker', 'type': 'text', 'name': 'rchat', 'metadata': {'sourceType': 'web', 'appId': '5cac75981134520011f881ab', 'IDENTIFIER': 'AGENT_MESSAGE', 'userName': 'rchat', 'userId': 'rchat'}, 'text': 'Hello! This is an automated reply from the Mock Ameyo Agent. How can I help?'}
+2025-12-17 11:26:35 - state_manager - INFO - 📥 Queueing for sess_1765950374330_6etsz -> Hello! This is an automated reply from the Mock Ameyo Agent. How can I help?
+2025-12-17 11:55:07 - main - INFO - 📩 Received from Ameyo for sess_1765951984142_fpidu: {'role': 'appMaker', 'type': 'text', 'name': 'rchat', 'metadata': {'sourceType': 'web', 'appId': '5cac75981134520011f881ab', 'IDENTIFIER': 'AGENT_MESSAGE', 'userName': 'rchat', 'userId': 'rchat'}, 'text': 'Hello! This is an automated reply from the Mock Ameyo Agent. How can I help?'}
+2025-12-17 11:55:10 - state_manager - INFO - 📥 Queueing for sess_1765951984142_fpidu -> Hello! This is an automated reply from the Mock Ameyo Agent. How can I help?
+2025-12-17 11:55:43 - main - INFO - 📩 Received from Ameyo for sess_1765951984142_fpidu: {'role': 'appMaker', 'type': 'text', 'name': 'rchat', 'metadata': {'sourceType': 'web', 'appId': '5cac75981134520011f881ab', 'IDENTIFIER': 'AGENT_MESSAGE', 'userName': 'rchat', 'userId': 'rchat'}, 'text': 'Hello! This is an automated reply from the Mock Ameyo Agent. How can I help?'}
+2025-12-17 11:55:45 - state_manager - INFO - 📥 Queueing for sess_1765951984142_fpidu -> Hello! This is an automated reply from the Mock Ameyo Agent. How can I help?
+2025-12-17 13:37:24 - knowledge_base - INFO - 📚 Loading Knowledge Base (FAQs & Error Docs)...
+2025-12-17 13:37:27 - knowledge_base - INFO -    - FAQ Doc loaded: 95403 characters
+2025-12-17 13:37:33 - knowledge_base - INFO -    - Error Doc loaded: 42132 characters
+2025-12-17 13:37:36 - knowledge_base - INFO - ✅ Knowledge Base Loaded!
+2025-12-17 13:37:36 - main - INFO - ⚡ Initializing AI Agent... (This happens only once)
+2025-12-17 13:37:37 - main - INFO - ⚡ AI Agent Ready!
+2025-12-17 13:37:58 - knowledge_base - INFO - 📚 Loading Knowledge Base (FAQs & Error Docs)...
+2025-12-17 13:37:59 - knowledge_base - INFO -    - FAQ Doc loaded: 95403 characters
+2025-12-17 13:38:05 - knowledge_base - INFO -    - Error Doc loaded: 42132 characters
+2025-12-17 13:38:07 - knowledge_base - INFO - ✅ Knowledge Base Loaded!
+2025-12-17 13:38:07 - main - INFO - ⚡ Initializing AI Agent... (This happens only once)
+2025-12-17 13:38:08 - main - INFO - ⚡ AI Agent Ready!
+2025-12-17 13:38:38 - auth - INFO - 🚀 Sending OTP to 9626484788...
+2025-12-17 13:38:41 - auth - INFO - 📩 API Response: {'session_info': {'valid_to': '2025-12-17 13:48:52', 'session_id': '2EE0645BB3CA694D39ECEE0ED0AB9EB4', 'valid_from': '17-Dec-2025 13:38'}, 'response': {'ver': '1.0', 'txn': 'TXN1765958918797', 'ts': '2025-12-17T13:38:38', 'status': '1'}}
+2025-12-17 13:39:04 - main - INFO - 🤖 User Verified. Fetching details for 9626484788...
+2025-12-17 13:39:20 - tools - INFO - 🔍 FAQ SEARCH for 'DSC':
+2025-12-17 13:39:20 - tools - INFO -    [Chunk 1]: DSC is a legally valid electronic certificate used to authenticate your identity digitally.
+You can buy a Class 3 Paperless DSC online from eMudhra fo...
+2025-12-17 13:39:20 - tools - INFO -    [Chunk 2]: Suggestions
+
+◽ Check status of my DSC application
+◽ Buy a Digital Signature Certificate (DSC)
+◽ Talk to support specialist
+	11
+	What is the time frame...
+2025-12-17 13:39:20 - tools - INFO -    [Chunk 3]: ◽ Buy a Digital Signature Certificate (DSC)
+◽ Know what documents are required
+◽ Talk to support specialist
+	5
+	Why video verification is required?
+	V...
+2025-12-17 13:39:21 - tools - INFO - 🔍 ERROR SEARCH for 'DSC':
+2025-12-17 13:39:21 - tools - INFO -    [Chunk 1]: ﻿DSC usage in website and troubleshooting steps.
+
+
+
+
+
+Index:-
+
+Sl.no        Website                                                                   ...
+2025-12-17 13:39:21 - tools - INFO -    [Chunk 2]: 10.    You will be asked to enter your DSC password. Enter your DSC password and click on the "OK" button.
+11.    Your DSC will be registered on the T...
+2025-12-17 13:39:21 - tools - INFO -    [Chunk 3]: Error 4: DSC verification failed
+
+If the certificate verification fails, an error message ‘Error occurred while DSC registration. Please try after som...
+2025-12-17 13:39:40 - tools - INFO - 🔍 FAQ SEARCH for 'MIME':
+2025-12-17 13:39:40 - tools - INFO -    [Chunk 1]: ______________________________________________________________________________________________________________________________
+SSL
+Short for Secure So...
+2025-12-17 13:39:40 - tools - INFO -    [Chunk 2]: (n)Code
+	4
+	eMail Verification
+	Subscriber
+	5
+	Tele Verification
+	Subscriber
+	6
+	Upload latest Video of the Subscriber
+	Subscriber
+	7
+	Issuance of Aut...
+2025-12-17 13:39:40 - tools - INFO -    [Chunk 3]: * Q. What is a hash algorithm?
+      * Q. What is Cryptographic Service Provider?
+      * Q. What is SSL (secure socket layer)?
+      * Q. What is MIM...
+2025-12-17 13:39:40 - tools - INFO - 🔍 ERROR SEARCH for 'MIME':
+2025-12-17 13:39:40 - tools - INFO -    [Chunk 1]: Requirement-Microsoft edge in IE mode and capicom.dll file
+
+
+
+
+STEP TO INSTALL CAPICOM.DLL
+
+
+
+The Installation of or registration of capicom.dll varie...
+2025-12-17 13:39:40 - tools - INFO -    [Chunk 2]: 1. Error message- General exception
+
+
+
+Resolution- Download Java 8 32 bit update 191 or higher versions. Configure java setting to support Digital Sig...
+2025-12-17 13:39:40 - tools - INFO -    [Chunk 3]: E-SACHIT (Ice gate)
+
+
+
+
+
+Resolution- Make sure digital signature is registered on new ice gate. Once the certificate is registered please sign PDF doc...
+2025-12-17 13:39:59 - main - INFO - ✅ Forwarded message to Ameyo for session sess_1765958884961_0fzo0
+2025-12-17 13:40:04 - main - INFO - 📩 Received from Ameyo for sess_1765958884961_0fzo0: {'role': 'appMaker', 'type': 'text', 'name': 'rchat', 'metadata': {'sourceType': 'web', 'appId': '5cac75981134520011f881ab', 'IDENTIFIER': 'AGENT_MESSAGE', 'userName': 'rchat', 'userId': 'rchat'}, 'text': 'Hello! This is an automated reply from the Mock Ameyo Agent. How can I help?'}
+2025-12-17 13:40:06 - state_manager - INFO - 📥 Queueing for sess_1765958884961_0fzo0 -> Hello! This is an automated reply from the Mock Ameyo Agent. How can I help?
+2025-12-17 13:40:30 - main - INFO - 👤 Routing to Live Agent: sess_1765958884961_0fzo0
+2025-12-17 13:40:31 - main - INFO - ✅ Forwarded message to Ameyo for session sess_1765958884961_0fzo0
+2025-12-17 13:40:35 - main - INFO - 📩 Received from Ameyo for sess_1765958884961_0fzo0: {'role': 'appMaker', 'type': 'text', 'name': 'rchat', 'metadata': {'sourceType': 'web', 'appId': '5cac75981134520011f881ab', 'IDENTIFIER': 'AGENT_MESSAGE', 'userName': 'rchat', 'userId': 'rchat'}, 'text': 'Hello! This is an automated reply from the Mock Ameyo Agent. How can I help?'}
+2025-12-17 13:40:37 - state_manager - INFO - 📥 Queueing for sess_1765958884961_0fzo0 -> Hello! This is an automated reply from the Mock Ameyo Agent. How can I help?
+2025-12-17 13:45:58 - knowledge_base - INFO - 📚 Loading Knowledge Base (FAQs & Error Docs)...
+2025-12-17 13:46:01 - knowledge_base - INFO -    - FAQ Doc loaded: 95403 characters
+2025-12-17 13:46:08 - knowledge_base - INFO -    - Error Doc loaded: 42132 characters
+2025-12-17 13:46:10 - knowledge_base - INFO - ✅ Knowledge Base Loaded!
+2025-12-17 13:46:10 - main - INFO - ⚡ Initializing AI Agent... (This happens only once)
+2025-12-17 13:46:12 - main - INFO - ⚡ AI Agent Ready!
+2025-12-17 13:46:21 - auth - INFO - 🚀 Sending OTP to 9626484788...
+2025-12-17 13:46:24 - auth - INFO - 📩 API Response: {'session_info': {'valid_to': '2025-12-17 13:56:35', 'session_id': 'CBF5F901B4E9B2194B22CCD99A622184', 'valid_from': '17-Dec-2025 13:46'}, 'response': {'ver': '1.0', 'txn': 'TXN1765959381562', 'ts': '2025-12-17T13:46:21', 'status': '1'}}
+2025-12-17 13:46:45 - main - INFO - 🤖 User Verified. Fetching details for 9626484788...
+2025-12-17 13:46:55 - main - INFO - ✅ Forwarded message to Ameyo for session sess_1765959372887_caf76
+2025-12-17 13:47:00 - main - INFO - 📩 Received from Ameyo for sess_1765959372887_caf76: {'role': 'appMaker', 'type': 'text', 'name': 'rchat', 'metadata': {'sourceType': 'web', 'appId': '5cac75981134520011f881ab', 'IDENTIFIER': 'AGENT_MESSAGE', 'userName': 'rchat', 'userId': 'rchat'}, 'text': 'Hello! This is an automated reply from the Mock Ameyo Agent. How can I help?'}
+2025-12-17 13:47:02 - state_manager - INFO - 📥 Queueing for sess_1765959372887_caf76 -> {'text': 'Hello! This is an automated reply from the Mock Ameyo Agent. How can I help?', 'sender': 'rchat', 'type': 'agent_message', 'timestamp': 1765959420.628187}
+2025-12-17 13:47:49 - main - INFO - 👤 Routing to Live Agent: sess_1765959372887_caf76
+2025-12-17 13:47:50 - main - INFO - ✅ Forwarded message to Ameyo for session sess_1765959372887_caf76
+2025-12-17 13:47:54 - main - INFO - 📩 Received from Ameyo for sess_1765959372887_caf76: {'role': 'appMaker', 'type': 'text', 'name': 'rchat', 'metadata': {'sourceType': 'web', 'appId': '5cac75981134520011f881ab', 'IDENTIFIER': 'AGENT_MESSAGE', 'userName': 'rchat', 'userId': 'rchat'}, 'text': 'Hello! This is an automated reply from the Mock Ameyo Agent. How can I help?'}
+2025-12-17 13:47:57 - state_manager - INFO - 📥 Queueing for sess_1765959372887_caf76 -> {'text': 'Hello! This is an automated reply from the Mock Ameyo Agent. How can I help?', 'sender': 'rchat', 'type': 'agent_message', 'timestamp': 1765959474.8095365}
+2025-12-17 13:51:19 - knowledge_base - INFO - 📚 Loading Knowledge Base (FAQs & Error Docs)...
+2025-12-17 13:51:22 - knowledge_base - INFO -    - FAQ Doc loaded: 95403 characters
+2025-12-17 13:51:29 - knowledge_base - INFO -    - Error Doc loaded: 42132 characters
+2025-12-17 13:51:30 - knowledge_base - INFO - ✅ Knowledge Base Loaded!
+2025-12-17 13:51:30 - main - INFO - ⚡ Initializing AI Agent... (This happens only once)
+2025-12-17 13:51:31 - main - INFO - ⚡ AI Agent Ready!
+2025-12-17 13:51:33 - main - INFO - 👤 Routing to Live Agent: sess_1765959372887_caf76
+2025-12-17 13:51:35 - main - INFO - ✅ Forwarded message to Ameyo for session sess_1765959372887_caf76
+2025-12-17 13:51:39 - main - INFO - 📩 Received from Ameyo for sess_1765959372887_caf76: {'role': 'appMaker', 'type': 'text', 'name': 'rchat', 'metadata': {'sourceType': 'web', 'appId': '5cac75981134520011f881ab', 'IDENTIFIER': 'AGENT_MESSAGE', 'userName': 'rchat', 'userId': 'rchat'}, 'text': 'Hello! This is an automated reply from the Mock Ameyo Agent. How can I help?'}
+2025-12-17 13:51:41 - state_manager - INFO - 📥 Queueing for sess_1765959372887_caf76 -> {'text': 'Hello! This is an automated reply from the Mock Ameyo Agent. How can I help?', 'sender': 'rchat', 'type': 'agent_message', 'timestamp': 1765959699.3259807}
+2025-12-17 13:51:50 - main - INFO - 👤 Routing to Live Agent: sess_1765959372887_caf76
+2025-12-17 13:51:52 - main - INFO - ✅ Forwarded message to Ameyo for session sess_1765959372887_caf76
+2025-12-17 13:51:56 - main - INFO - 📩 Received from Ameyo for sess_1765959372887_caf76: {'role': 'appMaker', 'type': 'text', 'name': 'rchat', 'metadata': {'sourceType': 'web', 'appId': '5cac75981134520011f881ab', 'IDENTIFIER': 'AGENT_MESSAGE', 'userName': 'rchat', 'userId': 'rchat'}, 'text': 'Hello! This is an automated reply from the Mock Ameyo Agent. How can I help?'}
+2025-12-17 13:51:58 - state_manager - INFO - 📥 Queueing for sess_1765959372887_caf76 -> {'text': 'Hello! This is an automated reply from the Mock Ameyo Agent. How can I help?', 'sender': 'rchat', 'type': 'agent_message', 'timestamp': 1765959716.1211712}
+2025-12-17 13:53:26 - auth - INFO - 🚀 Sending OTP to 9626484788...
+2025-12-17 13:53:29 - auth - INFO - 📩 API Response: {'session_info': {'valid_to': '2025-12-17 14:03:36', 'session_id': '15D9B61864FB265A7CB765DEF802FE4B', 'valid_from': '17-Dec-2025 13:53'}, 'response': {'ver': '1.0', 'txn': 'TXN1765959806127', 'ts': '2025-12-17T13:53:26', 'status': '1'}}
+2025-12-17 13:53:45 - main - INFO - 🤖 User Verified. Fetching details for 9626484788...
+2025-12-17 13:54:02 - main - INFO - ✅ Forwarded message to Ameyo for session sess_1765959796117_r9re2
+2025-12-17 13:54:07 - main - INFO - 📩 Received from Ameyo for sess_1765959796117_r9re2: {'role': 'appMaker', 'type': 'text', 'name': 'rchat', 'metadata': {'sourceType': 'web', 'appId': '5cac75981134520011f881ab', 'IDENTIFIER': 'AGENT_MESSAGE', 'userName': 'rchat', 'userId': 'rchat'}, 'text': 'Hello! This is an automated reply from the Mock Ameyo Agent. How can I help?'}
+2025-12-17 13:54:09 - state_manager - INFO - 📥 Queueing for sess_1765959796117_r9re2 -> {'text': 'Hello! This is an automated reply from the Mock Ameyo Agent. How can I help?', 'sender': 'rchat', 'type': 'agent_message', 'timestamp': 1765959847.2535603}
+2025-12-17 13:54:44 - knowledge_base - INFO - 📚 Loading Knowledge Base (FAQs & Error Docs)...
+2025-12-17 13:54:46 - knowledge_base - INFO -    - FAQ Doc loaded: 95403 characters
+2025-12-17 13:54:51 - knowledge_base - INFO -    - Error Doc loaded: 42132 characters
+2025-12-17 13:54:53 - knowledge_base - INFO - ✅ Knowledge Base Loaded!
+2025-12-17 13:54:53 - main - INFO - ⚡ Initializing AI Agent... (This happens only once)
+2025-12-17 13:54:55 - main - INFO - ⚡ AI Agent Ready!
+2025-12-17 13:54:57 - main - INFO - 👤 Routing to Live Agent: sess_1765959796117_r9re2
+2025-12-17 13:54:59 - main - INFO - ✅ Forwarded message to Ameyo for session sess_1765959796117_r9re2
+2025-12-17 13:55:02 - main - INFO - 📩 Received from Ameyo for sess_1765959796117_r9re2: {'role': 'appMaker', 'type': 'text', 'name': 'rchat', 'metadata': {'sourceType': 'web', 'appId': '5cac75981134520011f881ab', 'IDENTIFIER': 'AGENT_MESSAGE', 'userName': 'rchat', 'userId': 'rchat'}, 'text': 'Hello! This is an automated reply from the Mock Ameyo Agent. How can I help?'}
+2025-12-17 13:55:05 - state_manager - INFO - 📥 Queueing for sess_1765959796117_r9re2 -> {'text': 'Hello! This is an automated reply from the Mock Ameyo Agent. How can I help?', 'sender': 'rchat', 'type': 'agent_message', 'timestamp': 1765959902.9992058}
+2025-12-17 13:57:11 - knowledge_base - INFO - 📚 Loading Knowledge Base (FAQs & Error Docs)...
+2025-12-17 13:57:13 - knowledge_base - INFO -    - FAQ Doc loaded: 95403 characters
+2025-12-17 13:57:19 - knowledge_base - INFO -    - Error Doc loaded: 42132 characters
+2025-12-17 13:57:21 - knowledge_base - INFO - ✅ Knowledge Base Loaded!
+2025-12-17 13:57:21 - main - INFO - ⚡ Initializing AI Agent... (This happens only once)
+2025-12-17 13:57:23 - main - INFO - ⚡ AI Agent Ready!
+2025-12-17 14:17:19 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2025-12-17 14:17:26 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:17:30 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:17:35 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:17:39 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:17:43 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:17:47 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:17:51 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:17:56 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:18:00 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:18:04 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:18:08 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:18:12 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:18:16 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:18:28 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:18:31 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:18:35 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:18:39 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:18:43 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:18:47 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:18:51 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:18:55 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:18:59 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:19:03 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:19:08 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:19:12 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:19:16 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:19:20 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:19:24 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:19:28 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:19:32 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:19:36 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:19:40 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:19:44 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:19:56 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:19:59 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:20:30 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: Software caused connection abort (0x00002745/10053)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:20:35 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:20:44 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:20:48 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:20:52 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:20:56 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:21:00 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:21:04 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:21:08 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:21:12 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:21:16 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:21:28 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:21:31 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:21:35 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:21:39 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:21:43 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:21:47 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:21:54 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:21:58 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:22:02 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:22:06 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:22:27 - state_manager - WARNING - ⚠️ DB Read Error (sess_1765959796117_r9re2): server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2025-12-17 14:22:32 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:22:41 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:22:45 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:22:49 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:22:53 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:22:57 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:23:01 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:23:05 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:23:09 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:23:13 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:23:17 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:23:21 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:23:25 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:23:29 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:23:33 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:23:37 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:23:41 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:23:45 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:23:49 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:23:53 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:23:57 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:24:02 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:24:05 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:24:09 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:24:13 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:24:17 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:24:21 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:24:25 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:24:29 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:24:33 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:24:37 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:24:41 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:24:45 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 14:24:49 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: No route to host (0x00002751/10065)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-12-17 16:29:10 - knowledge_base - INFO - 📚 Loading Knowledge Base (FAQs & Error Docs)...
+2025-12-17 16:29:12 - knowledge_base - INFO -    - FAQ Doc loaded: 95403 characters
+2025-12-17 16:29:16 - knowledge_base - INFO -    - Error Doc loaded: 42132 characters
+2025-12-17 16:29:18 - knowledge_base - INFO - ✅ Knowledge Base Loaded!
+2025-12-17 16:29:18 - main - INFO - ⚡ Initializing AI Agent... (This happens only once)
+2025-12-17 16:29:20 - main - INFO - ⚡ AI Agent Ready!
+2025-12-17 16:29:29 - knowledge_base - INFO - 📚 Loading Knowledge Base (FAQs & Error Docs)...
+2025-12-17 16:29:31 - knowledge_base - INFO -    - FAQ Doc loaded: 95403 characters
+2025-12-17 16:29:35 - knowledge_base - INFO -    - Error Doc loaded: 42132 characters
+2025-12-17 16:29:37 - knowledge_base - INFO - ✅ Knowledge Base Loaded!
+2025-12-17 16:29:37 - main - INFO - ⚡ Initializing AI Agent... (This happens only once)
+2025-12-17 16:29:38 - main - INFO - ⚡ AI Agent Ready!
+2025-12-17 16:50:41 - knowledge_base - INFO - 📚 Loading Knowledge Base (FAQs & Error Docs)...
+2025-12-17 16:50:43 - knowledge_base - INFO -    - FAQ Doc loaded: 95403 characters
+2025-12-17 16:50:50 - knowledge_base - INFO -    - Error Doc loaded: 42132 characters
+2025-12-17 16:50:52 - knowledge_base - INFO - ✅ Knowledge Base Loaded!
+2025-12-17 16:50:52 - main - INFO - ⚡ Initializing AI Agent... (This happens only once)
+2025-12-17 16:50:56 - main - INFO - ⚡ AI Agent Ready!
+2025-12-17 16:51:11 - auth - INFO - 🚀 Sending OTP to 9626484788...
+2025-12-17 16:51:15 - auth - INFO - 📩 API Response: {'session_info': {'valid_to': '2025-12-17 17:01:18', 'session_id': 'FF3326F4C158C49B4FD6CD67E5B9BC2C', 'valid_from': '17-Dec-2025 16:51'}, 'response': {'ver': '1.0', 'txn': 'TXN1765970471027', 'ts': '2025-12-17T16:51:11', 'status': '1'}}
+2025-12-17 16:51:31 - auth - INFO - 🚀 Sending OTP to 9731316323...
+2025-12-17 16:51:34 - auth - INFO - 📩 API Response: {'session_info': {'valid_to': '2025-12-17 17:01:38', 'session_id': '2DF0D7CA1158397E36E0C3B9DA18584A', 'valid_from': '17-Dec-2025 16:51'}, 'response': {'ver': '1.0', 'txn': 'TXN1765970491708', 'ts': '2025-12-17T16:51:31', 'status': '1'}}
+2025-12-17 16:52:13 - main - INFO - 🤖 User Verified. Fetching details for 9731316323...
+2025-12-17 16:54:40 - auth - INFO - 🚀 Sending OTP to 9731316323...
+2025-12-17 16:54:43 - auth - INFO - 📩 API Response: {'session_info': {'valid_to': '2025-12-17 17:04:47', 'session_id': '0E3245389E8B9FABAC643C341C9E7181', 'valid_from': '17-Dec-2025 16:54'}, 'response': {'ver': '1.0', 'txn': 'TXN1765970680035', 'ts': '2025-12-17T16:54:40', 'status': '1'}}
+2025-12-17 16:55:40 - main - INFO - 🤖 User Verified. Fetching details for 9731316323...
+2025-12-17 16:56:09 - tools - INFO - 🔍 FAQ SEARCH for 'What is DSC?':
+2025-12-17 16:56:09 - tools - INFO -    [Chunk 1]: DSC is a legally valid electronic certificate used to authenticate your identity digitally.
+You can buy a Class 3 Paperless DSC online from eMudhra fo...
+2025-12-17 16:56:09 - tools - INFO -    [Chunk 2]: Suggestions
+
+◽ Check status of my DSC application
+◽ Buy a Digital Signature Certificate (DSC)
+◽ Talk to support specialist
+	11
+	What is the time frame...
+2025-12-17 16:56:09 - tools - INFO -    [Chunk 3]: ____________________________________________________________________________________________________________________________
+18 What is CPS?
+Ans: CPS ...
+2025-12-17 16:56:09 - tools - INFO - 🔍 ERROR SEARCH for 'What is DSC?':
+2025-12-17 16:56:09 - tools - INFO -    [Chunk 1]: ﻿DSC usage in website and troubleshooting steps.
+
+
+
+
+
+Index:-
+
+Sl.no        Website                                                                   ...
+2025-12-17 16:56:09 - tools - INFO -    [Chunk 2]: 10.    You will be asked to enter your DSC password. Enter your DSC password and click on the "OK" button.
+11.    Your DSC will be registered on the T...
+2025-12-17 16:56:09 - tools - INFO -    [Chunk 3]: To register your DSC on EPFO website:
+
+
+
+1.       Go to the EPFO website: https://unifiedportal-mem.epfindia.gov.in/
+2.       Click on the "Establishm...
+2025-12-17 16:56:35 - main - INFO - ✅ Forwarded message to Ameyo for session sess_1765970666073_2gx77
+2025-12-17 16:56:48 - main - INFO - 👤 Routing to Live Agent: sess_1765970666073_2gx77
+2025-12-17 16:56:49 - main - INFO - ✅ Forwarded message to Ameyo for session sess_1765970666073_2gx77
+2025-12-17 18:30:36 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2025-12-17 18:30:39 - state_manager - ERROR - ❌ DB Connection Error: connection to server at "65.21.106.12", port 5432 failed: Network is unreachable (0x00002743/10051)
+	Is the server running on that host and accepting TCP/IP connections?
+
